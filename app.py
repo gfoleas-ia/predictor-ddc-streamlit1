@@ -92,7 +92,7 @@ st.markdown("""
 # =========================
 
 st.sidebar.markdown("# 🦴 DDC Predictor")
-st.sidebar.markdown("### Displasia de Cadera")
+st.sidebar.markdown("### Displasia del Desarrollo de Cadera")
 menu = st.sidebar.radio(
     "Menú",
     [
