@@ -84,6 +84,13 @@ st.markdown("""
     border-radius: 10px;
     margin-top: 30px;
 }
+.autor {
+    font-size: 28px;
+    font-weight: 700;
+    color: #003B7A;
+    text-align: center;
+    margin-top: 15px;
+}
 </style>
 """, unsafe_allow_html=True)
 
