@@ -85,7 +85,7 @@ st.markdown("""
     margin-top: 30px;
 }
 .autor {
-    font-size: 16px;
+    font-size: 28px;
     font-weight: 700;
     color: #003B7A;
     text-align: center;
