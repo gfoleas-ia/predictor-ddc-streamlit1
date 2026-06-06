@@ -135,7 +135,7 @@ if menu == "Inicio":
         )
 
     with col2:
-        st.markdown("### 🩻 Ortopedia Pediátrica")
+        st.markdown("### 👦 👦  Ortopedia Pediátrica")
         st.image(
         "pelvis_ddc.png",
         caption="Radiografía ilustrativa de pelvis infantil",
