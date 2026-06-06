@@ -92,7 +92,7 @@ st.markdown("""
 # =========================
 
 st.sidebar.markdown("# 🦴 DDC Predictor")
-st.sidebar.markdown("### Displasia de Cadera")
+st.sidebar.markdown("### Displasia de Cadera en el lactante")
 menu = st.sidebar.radio(
     "Menú",
     [
@@ -135,8 +135,11 @@ if menu == "Inicio":
         )
 
     with col2:
-        st.markdown("### 🩻 Ortopedia Pediátrica")
-        st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pelvis_x-ray.jpg/640px-Pelvis_x-ray.jpg")
+    st.markdown("###  👦 Ortopedia Pediátrica")
+    st.image(
+        "pelvis_ddc.png",
+        use_container_width=True
+    )
 
     c1, c2, c3 = st.columns(3)
 
@@ -359,7 +362,7 @@ elif menu == "Acerca del Proyecto":
     st.write("""
     Este proyecto final desarrolla una aplicación en Streamlit para explorar,
     analizar, visualizar y modelar un dataset sintético de Displasia del Desarrollo
-    de Cadera. Está orientado a la especialidad de Ortopedia Pediátrica.
+    de Cadera en el lactante. Está orientado a la especialidad de Ortopedia Pediátrica.
     """)
 
     st.write("""
