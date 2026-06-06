@@ -140,6 +140,10 @@ if menu == "Inicio":
             '<div class="info-box">Proyecto académico. Los resultados no reemplazan el criterio médico profesional.</div>',
             unsafe_allow_html=True
         )
+        st.markdown(
+            '<div class="autor">Desarrollado por Geovanny F. Oleas-Santillán, Ortopedista Pediatra</div>',
+            unsafe_allow_html=True
+)
 
     with col2:
         st.markdown("### 👦 👦  Ortopedia Pediátrica")
